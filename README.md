@@ -14,31 +14,29 @@ For our convenience, I created a chatbot named **`SkiBot`** for querying those d
 
 Here's the functionality that SkiBot has:
 * Query the real-time forecast weather data in a particular ski resort on a particular date. The forecast data supports the future five days from now on. The weather feature includes:
-   * ```
-         * weather - (desciption)
-         * snowfall - (inch)
-         * rainfall - (inch)
-         * visibility - (mile)
-         * Humidity Level - (%)
-         * Temperature - (F)
-         * Wind Speed - (mph)
-      ```
+```
+* weather - (desciption)
+* snowfall - (inch)
+* rainfall - (inch)
+* visibility - (mile)
+* Humidity Level - (%)
+* Temperature - (F)
+* Wind Speed - (mph)
+```
 * Quering the real-time operating data in a particular ski resort. The operating feature includes: 
-   * ```
-         * status - (currently open / closed)
-         * open date - (open date)
-         * close date - (closed date)
-         * number of lifts - (number of lifts)
-         * ticket price - (including adult, youth and child prices)
-         * rating - (the rating of the resort)
-         * location
-     ```     
+```
+* status - (currently open / closed)
+* open date - (open date)
+* close date - (closed date)
+* number of lifts - (number of lifts)
+* ticket price - (including adult, youth and child prices)
+* rating - (the rating of the resort)
+* location
+```     
 
 
 
 ### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [Telegram Bot API](https://core.telegram.org/bots/api)
 * [Weather Unlocked API](https://developer.weatherunlocked.com/documentation/skiresort)
@@ -52,38 +50,33 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+**`Python @3.10`** **`requests`** **`telegram bot api`** **`urllib`** **`dateutil`**
+```
+pip install requests
+pip install python-telegram-bot
+pip install urllib3
+pip install dateutils
+```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+1. Clone the repo
+```sh
+git clone https://github.com/Kaicheng1995/SkiBot
+```
+2. Run the program
+```
+python main.py
+```
+3. Open SkiBot
+```
+open Telegram App and search the account "@proj_skibot", add it
+```
+4. Start to talk
+```
+type "/help" to get instructions and start to talk
+```
 
 
 <!-- USAGE EXAMPLES -->
