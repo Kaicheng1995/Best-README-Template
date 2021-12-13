@@ -5,20 +5,34 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+For snowboarders, we always hope to know some data about ski resorts, such as the amount of snowfall, the opening date, the ticket prices.
+For our convenience, I created a chatbot named **`SkiBot`** for querying those data with user messages in real-time. As you can see as follows:
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+<div align=center>
+<img src="https://github.com/Kaicheng1995/Best-README-Template/blob/master/Screen%20Shot%202021-12-12%20at%202.06.52%20PM.png" width="350"></div>
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+Here's the functionality that SkiBot has:
+* Query the real-time forecast weather data in a particular ski resort on a particular date. The forecast data supports the future five days from now on. The weather feature includes:
+   * ```
+         * weather - (desciption)
+         * snowfall - (inch)
+         * rainfall - (inch)
+         * visibility - (mile)
+         * Humidity Level - (%)
+         * Temperature - (F)
+         * Wind Speed - (mph)
+      ```
+* Quering the real-time operating data in a particular ski resort. The operating feature includes: 
+   * ```
+         * status - (currently open / closed)
+         * open date - (open date)
+         * close date - (closed date)
+         * number of lifts - (number of lifts)
+         * ticket price - (including adult, youth and child prices)
+         * rating - (the rating of the resort)
+         * location
+     ```     
 
 
 
@@ -26,16 +40,13 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+* [Telegram Bot API](https://core.telegram.org/bots/api)
+* [Weather Unlocked API](https://developer.weatherunlocked.com/documentation/skiresort)
+* [Python Request Library](https://docs.python-requests.org/en/latest/)
+* [Python Datetime Library](https://docs.python.org/3/library/datetime.html)
+* [Python Urllib.request Library](https://docs.python.org/3/library/urllib.request.html)
+* [Python Dateutil.parser Library](https://dateutil.readthedocs.io/en/stable/parser.html)
+* [Python Web Scraping](https://realpython.com/python-web-scraping-practical-introduction)
 
 
 
